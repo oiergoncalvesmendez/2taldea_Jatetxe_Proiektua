@@ -105,8 +105,9 @@ public class Conexion {
      * programa.
      */
     public static Boolean creacionUsuario() {
-        JOptionPane.showMessageDialog(null, "Lo sentimos es la primera vez que entrara al sistema.\n"
-                + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario 2 zenbakia \"System\" ...");
+    JOptionPane.showMessageDialog(null,
+        "Lo sentimos es la primera vez que entrara al sistema.\n"
+        + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario 2 zenbakia \"System\" ...");
         File file = new File("CrearUsuario.txt");
         usuario = "system";
         contrasena = JOptionPane.showInputDialog("Introduzca la contraseña del usuario system");
