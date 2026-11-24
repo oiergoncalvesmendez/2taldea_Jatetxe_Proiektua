@@ -98,7 +98,6 @@ public class Conexion {
         }
         return con;
     }*/
-
     /**
      * Metodo que crea el usuario que se utilizara para todo el sistema. Este
      * solamente se usara una vez que sera al correr por primera vez el
@@ -106,7 +105,7 @@ public class Conexion {
      */
     public static Boolean creacionUsuario() {
         JOptionPane.showMessageDialog(null, "Lo sentimos es la primera vez que entrara al sistema.\n"
-                + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario \"System\" 3.zenbakia");
+                + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario 1 zenbakia 2 zenbakia 3.zenbakia \"System\"");
         //kaixo
         File file = new File("CrearUsuario.txt");
         usuario = "system";

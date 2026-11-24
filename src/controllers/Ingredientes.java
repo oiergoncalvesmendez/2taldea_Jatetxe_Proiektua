@@ -7,5 +7,5 @@ package controllers;
  * @since 26/05/2015
  */
 public class Ingredientes extends BaseController{
-    
+ // Aldaketa A2 - Ingredientes kontroladorea
 }
