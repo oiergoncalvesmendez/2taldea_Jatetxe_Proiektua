@@ -98,15 +98,15 @@ public class Conexion {
         }
         return con;
     }*/
-
     /**
      * Metodo que crea el usuario que se utilizara para todo el sistema. Este
      * solamente se usara una vez que sera al correr por primera vez el
      * programa.
      */
     public static Boolean creacionUsuario() {
-        JOptionPane.showMessageDialog(null, "Lo sentimos es la primera vez que entrara al sistema.\n"
-                + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario \"System\" ...");
+    JOptionPane.showMessageDialog(null,
+        "Lo sentimos es la primera vez que entrara al sistema.\n"
+        + "Pongase en contacto con su DBA para que ingrese la contraseña del usuario 1 zenbakia \"System\" 1 zenbakia");
         File file = new File("CrearUsuario.txt");
         usuario = "system";
         contrasena = JOptionPane.showInputDialog("Introduzca la contraseña del usuario system");
